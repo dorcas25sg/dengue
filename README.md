@@ -1,5 +1,4 @@
-# dengue
-A Story Map App on Dengue Fever in Singapore
+# A Story Map App on Dengue Fever in Singapore
 
 ## Project Outline
 
@@ -7,6 +6,9 @@ For our Javascript midterm submission, we had to create a story map application 
 
 
 ## Dataset
-I used 
+I used three datasets from [Data.gov.sg](http://data.gov.sg)
+- [Dengue Clusters](https://data.gov.sg/dataset/dengue-clusters)
+- [Dengue Cases](https://data.gov.sg/dataset/dengue-cases)
+- [Dengue Mosquito Breeding Habitats](https://data.gov.sg/dataset/dengue-mosquito-breeding-habitats)
 
 The downloaded files were then converted in geojson using [geojson.io](http://geojson.io)
