@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <!-- CSS Imports -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/leaflet.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Goodle Web Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+
+  </head>
+  <body>
+    <!-- Start HTML -->
+    <div class="sidebar">
+      <div id="intro">
+        <center><img src="header3.png" height="255" width="255"></center>
+        <h1 class="polygon-header">Javascript Midterm: <br><i>Dengue Outbreak!</i></br></h1>
+        <p class="main"><span class="title-replace">What is Dengue?</span></p>
+        <p><span class="para-replace">Dengue Fever is a mosquito-borne viral disease in Singapore that spreads through the Aedes moquito.</span></p>
+        <p><span class="link-replace">Click on the markers on map to get details on them or hit 'NEXT >' to learn more!</span></p>
+      </div>
+        <div id="mosref">Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+      <div id="results" style="display: none;">
+        <h1 class="polygon-header">Dengue!</h1>
+        <p class="main"><span class="para-replace">Event</span>.</p>
+        <p> Explanation: <i><span class="link-replace">
+        some text Here</span></i></p>
+      </div>
+    </div>
+    <!-- Map -->
+    <div id="map" class="map"></div>
+
+    <!-- Legend -->
+    <div class="legend">
+      <ul class="legend">
+          <li><span class="clusters"></span> Clusters</li>
+          <li><span class="breeding"></span> Breeding Spots</li>
+          <li><span class="cases"></span> Dengue Cases</li>
+
+      </ul>
+    </div>
+
+    <!-- reset button -->
+      <button class="reset"> Reset Zoom </button>
+    <!-- previous button -->
+      <button class="previous"> < PREVIOUS </button>
+    <!-- next button -->
+      <button class="next"> NEXT > </button>
+
+
+    <!-- Javascript Imports from lab 2-->
+    <script src="js/jquery-2.2.0.js"></script>
+    <script src="js/underscore.js"></script>
+    <script src="js/leaflet.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Start Javascript Imports -->
+    <script src="basicApplication.js"></script>
+
+    <!-- End Javascript Imports -->
+
+  </body>
+</html>
