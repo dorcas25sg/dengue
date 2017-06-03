@@ -9,4 +9,4 @@ For our Javascript midterm submission, we had to create a story map application 
 ## Dataset
 I used 
 
-The downloaded files were then converted in geojson using geojson.io[http://geojson.io]
+The downloaded files were then converted in geojson using [geojson.io](http://geojson.io)
