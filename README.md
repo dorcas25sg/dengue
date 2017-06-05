@@ -4,6 +4,8 @@
 
 For our Javascript midterm submission, we had to create a story map application for a dataset of our choosing. A story map tells a story through several slides, each slide combining text and data. The user is able to move forward and backwards through the slides by clicking on next and previous buttons.
 
+This framework could be exceptionally useful in communicating ideas/stories in a linear sequence.
+
 ### [Live Site](https://dorcas25sg.github.io/dengue/)
 
 
